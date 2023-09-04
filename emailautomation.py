@@ -2,9 +2,6 @@ from email.message import EmailMessage
 import ssl
 import smtplib
 
-
-
-
 def mail_sender(from_name,to_name):
     em = EmailMessage()
     em['From'] = from_name
