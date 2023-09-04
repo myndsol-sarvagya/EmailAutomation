@@ -1,7 +1,7 @@
 # EmailAutomation
 # Mail Sender
 
-This Python script, `mail_sender.py`, is a simple program for sending emails using the Gmail SMTP server. It allows you to specify a sender's name and a list of recipient email addresses. The script uses the `smtplib` and `ssl` libraries for secure email transmission.
+This Python script, `emailautomation.py`, is a simple program for sending emails using the Gmail SMTP server. It allows you to specify a sender's name and a list of recipient email addresses. The script uses the `smtplib` and `ssl` libraries for secure email transmission.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Before using this script, make sure you have the following prerequisites:
 
 ## How to Use
 
-Follow these steps to use the `mail_sender.py` script:
+Follow these steps to use the `emailautomation.py` script:
 
 1. Clone or download the repository containing this script to your local machine.
 
@@ -26,11 +26,11 @@ Follow these steps to use the `mail_sender.py` script:
 
 4. Save your changes.
 
-5. Open a terminal or command prompt and navigate to the directory where `mail_sender.py` is located.
+5. Open a terminal or command prompt and navigate to the directory where `emailautomation.py` is located.
 
 6. Run the script using the following command:
    ```
-   python mail_sender.py
+   python emailautomation.py
    ```
 
 7. The script will send an email with the specified subject and body to each recipient in the list.
